@@ -1167,7 +1167,7 @@ $| = 0;
 	    "location" =>$placeHolderPrimer->location(),
 	    "length" => $placeHolderPrimer->length(),
 	    "analyzed_primer" => $placeHolderPrimer,
-	  })
+	  });
 
         $loopForwardSubset_r = [$placeHolderInfo];
 	$loopForwardCount = 1; 
